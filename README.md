@@ -4,6 +4,13 @@ This project was developed to test Prometheus and Grafana tools. It is an API de
 
 To run the application:
 
+build the app dir with maven:
+
+```
+- mvn clean package
+```
+and then:
+
 ```
 - docker-compose up -d
 ```
